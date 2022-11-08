@@ -3,7 +3,7 @@ public class Employee {
     private int department;
     private float salary;
     private int id;
-    private static int counter;
+    private static int counter = 1;
 
     public Employee(String fio, int department, float salary) {
         this.fio = fio;

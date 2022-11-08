@@ -3,12 +3,13 @@ public class Employee {
     private int department;
     private float salary;
     private int id;
+    private static int counter;
 
-    public Employee(String fio, int department, float salary, int id) {
+    public Employee(String fio, int department, float salary) {
         this.fio = fio;
         this.department = department;
         this.salary = salary;
-        this.id = id;
+        this.id = counter++;
     }
 
     public String getFio() {

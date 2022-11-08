@@ -2,25 +2,17 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static int id = 1;
     public static EmployeeBook employeeBase = new EmployeeBook(10);
 
     
     public static void main(String[] args) {
-        Employee ivanov = new Employee("Ivanov Ivan Ivanovich",1,32000.00f, id);
-        id++;
-        Employee petrov = new Employee("Petrov Petr Petrovcih",2,64348.00f, id);
-        id++;
-        Employee sidorov = new Employee("Sidorov Aleksey Aleksandrovich",3,123493.00f, id);
-        id++;
-        Employee pupkin = new Employee("Pupkin Nikita Nikitich",3,20304.00f, id);
-        id++;
-        Employee ruabov = new Employee("Ruabov Dmirtiy Petrovcih",4,23495.00f, id);
-        id++;
-        Employee mironova = new Employee("Mironova Katerina Vaddimovna",5,164039.00f, id);
-        id++;
-        Employee gribova = new Employee("Gribova Anastasia Mikhailovna",2,32849.00f, id);
-        id++;
+        Employee ivanov = new Employee("Ivanov Ivan Ivanovich",1,32000.00f);
+        Employee petrov = new Employee("Petrov Petr Petrovcih",2,64348.00f);
+        Employee sidorov = new Employee("Sidorov Aleksey Aleksandrovich",3,123493.00f);
+        Employee pupkin = new Employee("Pupkin Nikita Nikitich",3,20304.00f);
+        Employee ruabov = new Employee("Ruabov Dmirtiy Petrovcih",4,23495.00f);
+        Employee mironova = new Employee("Mironova Katerina Vaddimovna",5,164039.00f);
+        Employee gribova = new Employee("Gribova Anastasia Mikhailovna",2,32849.00f);
         employeeBase.addCustomer(ivanov);
         employeeBase.addCustomer(petrov);
         employeeBase.addCustomer(sidorov);
